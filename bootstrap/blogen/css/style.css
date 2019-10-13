@@ -1,0 +1,43 @@
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+    margin: 10px;
+    padding: 8px;
+    white-space: nowrap;
+    justify-content: flex-end;
+}
+
+div.dataTables_wrapper div.dataTables_filter label {
+    font-weight: normal;
+    white-space: nowrap;
+    text-align: left;
+    margin: 5px;
+    padding: 3px;
+}
+
+.dataTables_length{
+    display: none;
+} 
+
+.dataTables_info{
+    display: none;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color:grey;
+    border-color: grey;
+}
+.page-item:not(.active):hover .page-link:not(.active):hover {
+     color: grey;
+  }
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: grey;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
